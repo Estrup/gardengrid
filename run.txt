@@ -1,0 +1,1 @@
+docker run --network="host" --privileged -v /dev:/dev your-image-name
