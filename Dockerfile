@@ -10,8 +10,7 @@ RUN apt-get update && apt-get install -y \
     bluetooth \
     bluez \
     libbluetooth-dev \
-    libudev-dev \
- && rm -rf /var/lib/apt/lists/*
+    libudev-dev 
 
 # Copy application dependency manifests to the container image.
 # A wildcard is used to ensure copying both package.json AND package-lock.json (when available).
